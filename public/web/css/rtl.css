@@ -1,0 +1,188 @@
+
+@font-face {
+    font-family: 'DINN';
+    src: url(../fonts/DINNextLTArabic-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'DINN';
+    src: url(../fonts/DINNextLTArabic-Regular.ttf);
+    font-weight: 400;
+}@font-face {
+    font-family: 'DINN';
+    src: url(../fonts/DINNextLTArabic-Medium.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'DINN';
+url('../fonts/DINNextLTArabic-Bold.ttf')  format('truetype'),
+url('../fonts/BahijTheSansArabic-Bold/BahijTheSansArabic-Bold.svg#BahijTheSansArabic-Bold') format('svg');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'DINN';
+url('../fonts/DINNextLTArabic-Black.ttf')  format('truetype'),
+url('../fonts/BahijTheSansArabic-SemiBold/BahijTheSansArabic-SemiBold.svg#BahijTheSansArabic-SemiBold') format('svg');
+    font-weight: 600;
+}
+h1, h2, h3, h4, h5, h6, p,
+.banner-style-five .content-box p{
+    font-family: 'DINN' !important
+}
+body {
+    font-family: 'DINN' !important;
+    direction: rtl;
+}
+.logo-box,.main-menu .navigation > li {
+    float: right!important;
+}
+.main-menu .navigation > li:first-child {
+    margin-right: 0;
+    margin-left: 25px!important;
+}
+.main-menu .navigation > li:last-child {
+    margin-right: 25px !important;
+    margin-left: 0 !important;
+}
+.menu-area,
+.sticky-header .menu-area{
+    float: left;
+}
+.mobile-menu .close-btn {
+    right: unset;
+    left: 25px;
+}
+.banner-style-five .image-box {
+    margin-left: -190px;
+    margin-right: 70px;
+}
+
+.main-menu .navigation > li.active:before {
+    right: 0;
+}
+.navigation img {
+    margin-left: 10px;
+}
+.banner-style-five .content-box,div#mCSB_1_container,
+#content_block_16,#content_block_13,.contact-section .contact-form-area .form-inner .form-group,
+.content-box,.main-footer.style-five .footer-bottom .copyright p,.mobile-menu .nav-logo,
+.main-footer.style-six .footer-top,.faq-section .accordion-box .block{
+    text-align: right;
+}
+.contact-section .contact-form-area .form-inner .message-btn {
+    text-align: left;
+}
+.content-box .btn-box a {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.content-box .btn-box a i {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.fa-arrow-right:before {
+    content: "\f060";
+}
+#image_block_16 .image-box {
+    margin-right: -185px;
+    margin-left: 60px;
+}
+#image_block_16 .image-box .image-1 {
+    position: relative;
+    left: 129px;
+}
+#image_block_16 .image-box {
+    margin-left: 0;
+}
+#image_block_16 .image-box .image-2 {
+    right: 0;
+    left: unset;
+}
+.content-box .download-btn a {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.content-box .download-btn a i {
+    right: 30px;
+    left: unset;
+}
+.content-box .download-btn a {
+    padding: 10px 80px 14px  15px
+}
+.achievements .content-box .text {
+    padding-left: 100px;
+    padding-right: 0;
+}
+.testimonial .content-box > .text {
+    margin-right: 0;
+    margin-left: 100px;
+}
+.main-footer.style-five .footer-bottom .footer-nav li {
+    padding-right:0;
+    margin-right: 0;
+
+    padding-left: 40px;
+    margin-left: 35px;
+}
+.main-footer .mail-box .form-group button {
+    left: 0;
+    right: unset;
+}
+.main-footer .mail-box .form-group input[type='email'] {
+    padding: 10px 20px 10px 30px;
+}
+.main-footer .mail-box .form-group button {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.downloadApp-section .bg-column {
+    right: 0;
+    left: unset;
+    transform: scaleX(-1);
+}
+#content_block_04 .content-box:before {
+    right: 0;
+    left: unset;
+}
+#content_block_04 .content-box {
+    margin-left: 0;
+    margin-right: 35px;
+    padding: 80px 113px 72px 30px;
+}
+.main-menu .navigation > li > a img {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.page-title .content-box .bread-crumb li {
+    padding-left: 15px;
+    margin-left: 15px;
+    padding-right: 0px;
+    margin-right: 0;
+}
+.page-title .content-box .bread-crumb li:before {
+    left: 0;
+    right: unset;
+}
+.about-sticky {
+    left: 0;
+    text-align: right;
+    right: auto;
+}
+.about-sticky h4 i {
+    margin-right: 23px;
+    margin-left: 0;
+}
+@media only screen and (max-width: 599px){
+    #content_block_16 .content-box .download-btn .app-store-btn {
+        margin-right:0!important;
+    }
+    #content_block_04 .content-box {
+        margin-right: 0!important;
+    }
+    .about-sticky {
+        bottom: 30px;
+    }
+}
